@@ -12,7 +12,8 @@ header h1 {
 }
 
 .nav {
-    background-color: #343A40!important;
+    /*background-color: #343A40!important;*/
+    background-color: #3498db!important;
 }
 
 .nav-link {
@@ -22,6 +23,23 @@ header h1 {
 }
 
 .active {
-    background-color: #2C2C2C!important;
+    /*background-color: #2C2C2C!important;*/
+    background-color: #2980b9!important;
     border-radius: 0!important;
+}
+
+ul.nav li a:hover {
+    background-color: #2980b9!important;
+}
+
+.display-time {
+    margin: 10px 0;
+}
+
+.display-time h1 {
+    font-weight: bold!important;
+}
+
+.btn {
+    margin-left: 10px;
 }
